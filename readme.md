@@ -3,4 +3,4 @@
 ![](https://github.com/DamianPyCoder/Neumorphism/blob/main/musicplayer/reproductorScreenshot.png)
 
 ## 2 - Basic Calculator
-![](https://github.com/DamianPyCoder/Neumorphism/blob/main/musicplayer/reproductorScreenshot.png)
+![](https://github.com/DamianPyCoder/Neumorphism/blob/main/basicCalculator/calculadoraScreenshot.png)
