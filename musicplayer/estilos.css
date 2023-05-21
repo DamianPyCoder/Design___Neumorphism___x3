@@ -1,0 +1,88 @@
+body {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.reproductor {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.controles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.boton {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  width: 50px; /* Ajusta el ancho del botón */
+  height: 50px; /* Ajusta la altura del botón */
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  border: 2px solid #f2f2f2;
+}
+
+.boton.boton-anterior {
+  margin: 0 5px; /* Ajusta el margen izquierdo y derecho */
+}
+
+.boton i {
+  color: #ffffff;
+}
+
+.boton:before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 75%);
+  transform: translate(-25%, -25%);
+  opacity: 0.6;
+  transition: transform 0.3s, opacity 0.3s;
+  z-index: -1;
+}
+
+.boton:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.boton:hover:before {
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.informacion {
+  text-align: center;
+  color: #333333;
+}
+
+.titulo {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.artista {
+  font-size: 14px;
+  opacity: 0.8;
+}
