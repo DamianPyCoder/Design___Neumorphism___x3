@@ -1,0 +1,1 @@
+I have decided to add part of the styles in the html to practice, I know that it is not a good practice having a css file, but since what I am doing is playing and practicing, I have allowed myself certain licenses so as not to forget, among other things, how to do this code type
