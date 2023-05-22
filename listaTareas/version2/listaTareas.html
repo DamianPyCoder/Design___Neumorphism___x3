@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Tareas</h1>
+    <ul class="task-list">
+      <li class="task-card">
+        <input type="checkbox" id="task-1" class="task-checkbox">
+        <label for="task-1" class="task-label">Tarea 1</label>
+        <button class="delete-button">Eliminar</button>
+      </li>
+      <li class="task-card">
+        <input type="checkbox" id="task-2" class="task-checkbox">
+        <label for="task-2" class="task-label">Tarea 2</label>
+        <button class="delete-button">Eliminar</button>
+      </li>
+      <li class="task-card">
+        <input type="checkbox" id="task-3" class="task-checkbox">
+        <label for="task-3" class="task-label">Tarea 3</label>
+        <button class="delete-button">Eliminar</button>
+      </li>
+      <!-- Agrega más tareas aquí -->
+    </ul>
+    <form id="new-task-form">
+      <input type="text" id="new-task-input" placeholder="Nueva tarea">
+      <button type="submit">Agregar tarea</button>
+    </form>
+  </div>
+</body>
+</html>
